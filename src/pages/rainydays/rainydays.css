@@ -1,0 +1,20 @@
+h1,
+button {
+  color: #39593e;
+}
+
+button:hover {
+  background-color: #39593e;
+}
+
+.logo {
+  color: #39593e;
+}
+
+#contact {
+  color: #39593e;
+}
+
+.nav-link:hover {
+  color: #39593e;
+}

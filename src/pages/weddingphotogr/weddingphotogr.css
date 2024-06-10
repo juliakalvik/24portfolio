@@ -1,0 +1,116 @@
+.about-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo-wed {
+  width: 300px;
+  height: fit-content;
+}
+
+h2,
+h3,
+h4,
+p {
+  color: #525252;
+}
+
+h1 {
+  color: #7e896c;
+}
+
+.the-process {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.process-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+  width: 100%;
+  text-align: center;
+}
+
+.process-content h3,
+.process-content p {
+  color: #fff;
+}
+
+.design img {
+  width: 200px;
+}
+
+.design {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
+.wed-gallery img {
+  
+  height: 300px;
+}
+
+.wed-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 1100px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: end;
+  margin: 30px;
+}
+
+.buttons-footer {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+}
+
+h1,
+button {
+  color: #7e896c;
+}
+
+button:hover {
+  background-color: #7e896c;
+}
+
+.logo {
+  color: #7e896c;
+}
+
+#contact {
+  color: #7e896c;
+}
+
+.nav-link:hover {
+  color: #7e896c;
+}
+
+@media screen and (max-width: 1180px) {
+  #line {
+    display: none;
+  }
+  .design {
+    max-width: 700px;
+  }
+}
