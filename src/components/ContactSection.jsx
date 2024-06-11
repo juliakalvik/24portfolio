@@ -11,7 +11,7 @@ const ContactSection = () => {
           <h4>My contact info:</h4>
           <p>PHONE: +47 98767493 | E-MAIL: julia@kalvikfoto.com</p>
         </div>
-        <img src="public/main-portrait-resized.png" alt="Julia Kalvik" />
+        <img src="/main-portrait-resized.png" alt="Julia Kalvik" />
         <div className="back-to-top">
           <a href="#nav">Back to top</a>
         </div>
