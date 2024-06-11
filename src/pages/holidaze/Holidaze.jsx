@@ -9,7 +9,7 @@ const Holidaze = () => {
     <div>
       <main className="about-project">
         <img
-          src="public/holidaze/holidaze.png"
+          src="public/holidaze/holidaze-hero.png"
           className="logo-wed"
           alt="Rainy Days logo"
         />

@@ -22,7 +22,7 @@ const ProjectSection = () => {
 
       <section className="project-2">
         <div className="pro2-photo">
-          <img src="public/csm1.png" id="pro-img" alt="Screenshot from the Community Science Museum webpage" />
+          <img src="../public/gavel/gavel2.png" id="pro-img" alt="Screenshot from the Community Science Museum webpage" />
         </div>
         <div className="pro2-text">
           <h2>Gavel</h2>
