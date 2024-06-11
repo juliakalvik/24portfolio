@@ -16,13 +16,13 @@ const ProjectSection = () => {
           </div>
         </div>
         <div className="pro1-photo">
-          <img src="public/holidaze/holidaze-hero.png" id="pro-img" alt="Screenshot from the blog webpage" />
+          <img src="/holidaze/holidaze-hero.png" id="pro-img" alt="Screenshot from the blog webpage" />
         </div>
       </section>
 
       <section className="project-2">
         <div className="pro2-photo">
-          <img src="../public/gavel/gavel2.png" id="pro-img" alt="Screenshot from the Community Science Museum webpage" />
+          <img src="/gavel/gavel2.png" id="pro-img" alt="Screenshot from the Community Science Museum webpage" />
         </div>
         <div className="pro2-text">
           <h2>Gavel</h2>
@@ -46,13 +46,13 @@ const ProjectSection = () => {
           </div>
         </div>
         <div className="pro1-photo">
-          <img src="public/wedphotblog1.png" id="pro-img" alt="Screenshot from the blog webpage" />
+          <img src="/wedphotblog1.png" id="pro-img" alt="Screenshot from the blog webpage" />
         </div>
       </section>
 
       <section className="project-2">
         <div className="pro2-photo">
-          <img src="public/csm1.png" id="pro-img" alt="Screenshot from the Community Science Museum webpage" />
+          <img src="/csm1.png" id="pro-img" alt="Screenshot from the Community Science Museum webpage" />
         </div>
         <div className="pro2-text">
           <h2>Community Science Museum</h2>
@@ -76,13 +76,13 @@ const ProjectSection = () => {
           </div>
         </div>
         <div className="pro3-photo">
-          <img src="public/doglibr1.png" id="pro-img" alt="Screenshot from the DogLibrary webpage" />
+          <img src="/doglibr1.png" id="pro-img" alt="Screenshot from the DogLibrary webpage" />
         </div>
       </section>
 
       <section className="project-4">
         <div className="pro4-photo">
-          <img src="public/rainydays2.png" id="pro-img" alt="Screenshot from the RainyDays webpage" />
+          <img src="/rainydays2.png" id="pro-img" alt="Screenshot from the RainyDays webpage" />
         </div>
         <div className="pro4-text">
           <h2>RainyDays</h2>
