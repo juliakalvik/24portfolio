@@ -9,7 +9,7 @@ const RainyDays = () => {
     <div>
       <main className="about-project">
         <img
-          src="public/rainyDays/logo-rainydays.png"
+          src="/rainyDays/logo-rainydays.png"
           className="logo-wed"
           alt="Rainy Days logo"
         />
@@ -58,25 +58,23 @@ const RainyDays = () => {
             Please reach out if you would like to see more.
           </p>
           <div className="design">
-            {/* Add your image sources */}
-            <img src="public/rainyDays/rainydayslowf1.png" alt="Screenshot of low-fidelity design" />
-            <img src="public/rainyDays/rainydayshig1.png" alt="Screenshot of high-fidelity design" />
+            <img src="/rainyDays/rainydayslowf1.png" alt="Screenshot of low-fidelity design" />
+            <img src="/rainyDays/rainydayshig1.png" alt="Screenshot of high-fidelity design" />
             <hr id="line" width="1" size="500" />
-            <img src="public/rainyDays/rainydayshig2.png" alt="Screenshot of low-fidelity design" />
-            <img src="public/rainyDays/rainydayshig3.png" alt="Screenshot of high-fidelity design" />
+            <img src="/rainyDays/rainydayshig2.png" alt="Screenshot of low-fidelity design" />
+            <img src="/rainyDays/rainydayshig3.png" alt="Screenshot of high-fidelity design" />
           </div>
           <h3>The final product</h3>
           <div className="wed-gallery">
-            {/* Add your image sources */}
-            <img src="public/rainyDays/rdgal1.png" alt="Screenshot from final project website" />
-            <img src="public/rainyDays/rdgal2.png" alt="Screenshot from final project website" />
-            <img src="public/rainyDays/rdgal3.png" alt="Screenshot from final project website" />
-            <img src="public/rainyDays/radgal4.png" alt="Screenshot from final project website" />
-            <img src="public/rainyDays/radgal5.png" alt="Screenshot from final project website" />
-            <img src="public/rainyDays/radgal6.png" alt="Screenshot from final project website" />
-            <img src="public/rainyDays/radgal7.png" alt="Screenshot from final project website" />
-            <img src="public/rainyDays/radgal8.png" alt="Screenshot from final project website" />
-            <img src="public/rainyDays/radgal9.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/rdgal1.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/rdgal2.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/rdgal3.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/radgal4.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/radgal5.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/radgal6.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/radgal7.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/radgal8.png" alt="Screenshot from final project website" />
+            <img src="/rainyDays/radgal9.png" alt="Screenshot from final project website" />
           </div>
         </div>
       </section>

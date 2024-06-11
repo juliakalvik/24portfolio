@@ -9,7 +9,7 @@ const DogLibrary = () => {
     <div>
       <main className="about-project">
         <img
-          src="public/dogs/logo-doglibr.png"
+          src="/dogs/logo-doglibr.png"
           className="logo-wed"
           alt="Dog Library logo"
         />
@@ -43,15 +43,15 @@ const DogLibrary = () => {
         <div className="process-content">
           <h3>The final product</h3>
           <div className="wed-gallery">
-            <img src="public/dogs/doggal1.png" alt="Screenshot from final project website" />
-            <img src="public/dogs/doggal2.png" alt="Screenshot from final project website" />
-            <img src="public/dogs/doggal3.png" alt="Screenshot from final project website" />
-            <img src="public/dogs/doggal4.png" alt="Screenshot from final project website" />
-            <img src="public/dogs/doggal5.png" alt="Screenshot from final project website" />
-            <img src="public/dogs/doggal6.png" alt="Screenshot from final project website" />
-            <img src="public/dogs/doggal7.png" alt="Screenshot from final project website" />
-            <img src="public/dogs/doggal8.png" alt="Screenshot from final project website" />
-            <img src="public/dogs/doggal9.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal1.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal2.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal3.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal4.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal5.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal6.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal7.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal8.png" alt="Screenshot from final project website" />
+            <img src="/dogs/doggal9.png" alt="Screenshot from final project website" />
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@ const ScienceMuseum = () => {
     <div>
       <main className="about-project">
         <img
-          src="public/csm/logo-csm.png"
+          src="/csm/logo-csm.png"
           className="logo-wed"
           alt="Science Museum logo"
         />
@@ -56,61 +56,61 @@ const ScienceMuseum = () => {
           </p>
           <div className="design">
             <img
-              src="public/csm/csmlowf1.png"
+              src="/csm/csmlowf1.png"
               alt="Screenshot of low-fidelity design"
             />
             <p>&gt;</p>
             <img
-              src="public/csm/csmhig1.png"
+              src="/csm/csmhig1.png"
               alt="Screenshot of high-fidelity design"
             />
             <hr id="line" width="1" size="500" />
             <img
-              src="public/csm/csmlowf2.png"
+              src="/csm/csmlowf2.png"
               alt="Screenshot of low-fidelity design"
             />
             <p>&gt;</p>
             <img
-              src="public/csm/csmhig2.png"
+              src="/csm/csmhig2.png"
               alt="Screenshot of high-fidelity design"
             />
           </div>
           <h3>The final product</h3>
           <div className="wed-gallery">
             <img
-              src="public/csm/csmgal1.png"
+              src="/csm/csmgal1.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/csm/csmgal2.png"
+              src="/csm/csmgal2.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/csm/csmgal3.png"
+              src="/csm/csmgal3.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/csm/csmgal4.png"
+              src="/csm/csmgal4.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/csm/csmgal5.png"
+              src="/csm/csmgal5.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/csm/csmgal6.png"
+              src="/csm/csmgal6.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/csm/csmgal7.png"
+              src="/csm/csmgal7.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/csm/csmgal8.png"
+              src="/csm/csmgal8.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/csm/csmgal9.png"
+              src="/csm/csmgal9.png"
               alt="Screenshot from final project website"
             />
           </div>

@@ -18,7 +18,7 @@ const HeroSection = () => {
             <span className="hero-oslo">from Oslo, Norway</span>
           </div>
           <div className="hero-img">
-            <img src="public/main-portrait-resized.png" alt="Julia Kalvik" />
+            <img src="/main-portrait-resized.png" alt="Julia Kalvik" />
           </div>
         </div>
       </div>

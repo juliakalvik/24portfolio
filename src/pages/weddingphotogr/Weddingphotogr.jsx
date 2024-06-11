@@ -10,7 +10,7 @@ const Weddingphotogr = () => {
     <div>
       <main className="about-project">
         <img
-          src="public/wedding/logo-wed.png"
+          src="/wedding/logo-wed.png"
           className="logo-wed"
           alt="Wedding photographer logo"
         />
@@ -55,61 +55,61 @@ const Weddingphotogr = () => {
           </p>
           <div className="design">
             <img
-              src="public/wedding/wedlowf1.png"
+              src="/wedding/wedlowf1.png"
               alt="Screenshot of low-fidelity design"
             />
             <p>&gt;</p>
             <img
-              src="public/wedding/wedhig1.png"
+              src="/wedding/wedhig1.png"
               alt="Screenshot of high-fidelity design"
             />
             <hr id="line" width="1" size="500" />
             <img
-              src="public/wedding/wedlowf2.png"
+              src="/wedding/wedlowf2.png"
               alt="Screenshot of low-fidelity design"
             />
             <p>&gt;</p>
             <img
-              src="public/wedding/wedhig2.png"
+              src="/wedding/wedhig2.png"
               alt="Screenshot of high-fidelity design"
             />
           </div>
           <h3>The final product</h3>
           <div className="wed-gallery">
             <img
-              src="public/wedding/wedgal2.png"
+              src="/wedding/wedgal2.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/wedding/wedgal1.png"
+              src="/wedding/wedgal1.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/wedding/wedgal3.png"
+              src="/wedding/wedgal3.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/wedding/wedgal4.png"
+              src="/wedding/wedgal4.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/wedding/wedgal5.png"
+              src="/wedding/wedgal5.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/wedding/wedgal6.png"
+              src="/wedding/wedgal6.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/wedding/wedgal7.png"
+              src="/wedding/wedgal7.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/wedding/wedgal8.png"
+              src="/wedding/wedgal8.png"
               alt="Screenshot from final project website"
             />
             <img
-              src="public/wedding/wedgal9.png"
+              src="/wedding/wedgal9.png"
               alt="Screenshot from final project website"
             />
           </div>
