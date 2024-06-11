@@ -29,6 +29,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: left;
+  color: #fff;
 }
 
 .hero-section {
@@ -54,14 +55,14 @@ span {
   line-height: 30px;
 }
 
-.scroll-to-projects {
+/*.scroll-to-projects {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 6px;
   margin-top: 10vh;
   margin-bottom: 10vh;
-}
+} */
 
 .double-arrow {
   width: 20px;

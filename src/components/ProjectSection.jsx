@@ -1,99 +1,67 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../variables.css"
+import "../variables.css";
 
 const ProjectSection = () => {
+  const projects = [
+    {
+      id: 1,
+      title: "Holidaze",
+      description: "A website for booking your next trip, just like Airbnb!",
+      imageUrl: "/holidaze/holidaze-hero.png",
+      link: "/holidaze",
+    },
+    {
+      id: 2,
+      title: "Gavel",
+      description: "A website for bidding on different products for everyone!",
+      imageUrl: "/gavel/gavel2.png",
+      link: "/gavel",
+    },
+    {
+      id: 3,
+      title: "Wedding Photographer Blog",
+      description: "A blog for updates about being either a photographer or a client.",
+      imageUrl: "/wedphotblog1.png",
+      link: "/weddingphotogr",
+    },
+    {
+      id: 4,
+      title: "Community Science Museum",
+      description: "A website including a blog for updates about being a photographer or a client.",
+      imageUrl: "/csm1.png",
+      link: "/csm",
+    },
+    {
+      id: 5,
+      title: "DogLibrary",
+      description: "A website including a blog for updates about dogs.",
+      imageUrl: "/doglibr1.png",
+      link: "/doglibrary",
+    },
+    {
+      id: 6,
+      title: "RainyDays",
+      description: "A blog for updates about rainy day activities.",
+      imageUrl: "/rainydays2.png",
+      link: "/rainydays",
+    },
+  ];
+
   return (
     <main className='projectSection'>
-      <section className="project-1" id="pro1">
-        <div className="pro1-text">
-          <h2>Holidaze</h2>
-          <p>A website for booking your<br />next trip,<br />just like airbnb!</p>
-          <div className="pro-button">
-            <Link to="/holidaze"  rel="noopener noreferrer">
-              <button>more about this project</button>
+      {projects.map((project) => (
+        <div key={project.id} className="project-card">
+          <img src={project.imageUrl} alt={`Screenshot from the ${project.title} webpage`} className="project-image" />
+          <div className="project-text">
+            <h2>{project.title}</h2>
+            <p>{project.description}</p>
+            <Link to={project.link} rel="noopener noreferrer">
+              <button>More about this project</button>
             </Link>
           </div>
         </div>
-        <div className="pro1-photo">
-          <img src="/holidaze/holidaze-hero.png" id="pro-img" alt="Screenshot from the blog webpage" />
-        </div>
-      </section>
-
-      <section className="project-2">
-        <div className="pro2-photo">
-          <img src="/gavel/gavel2.png" id="pro-img" alt="Screenshot from the Community Science Museum webpage" />
-        </div>
-        <div className="pro2-text">
-          <h2>Gavel</h2>
-          <p>A website for bidding<br />on different products<br />for everyone!</p>
-          <div className="pro-button">
-            <Link to="/gavel"  rel="noopener noreferrer">
-              <button>more about this project</button>
-            </Link>
-          </div>
-        </div>
-      </section>
-     
-      <section className="project-1" id="pro1">
-        <div className="pro1-text">
-          <h2>wedding photographer blog</h2>
-          <p>A website including a blog for<br />posting updates about being<br />either a photographer or a client</p>
-          <div className="pro-button">
-            <Link to="/weddingphotogr"  rel="noopener noreferrer">
-              <button>more about this project</button>
-            </Link>
-          </div>
-        </div>
-        <div className="pro1-photo">
-          <img src="/wedphotblog1.png" id="pro-img" alt="Screenshot from the blog webpage" />
-        </div>
-      </section>
-
-      <section className="project-2">
-        <div className="pro2-photo">
-          <img src="/csm1.png" id="pro-img" alt="Screenshot from the Community Science Museum webpage" />
-        </div>
-        <div className="pro2-text">
-          <h2>Community Science Museum</h2>
-          <p>A website including a blog for<br />posting updates about being<br />either a photographer or a client</p>
-          <div className="pro-button">
-            <Link to="/csm"  rel="noopener noreferrer">
-              <button>more about this project</button>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="project-3">
-        <div className="pro3-text">
-          <h2>DogLibrary</h2>
-          <p>A website including a blog for<br />posting updates about being<br />either a photographer or a client</p>
-          <div className="pro-button">
-            <Link to="/doglibrary"  rel="noopener noreferrer">
-              <button>more about this project</button>
-            </Link>
-          </div>
-        </div>
-        <div className="pro3-photo">
-          <img src="/doglibr1.png" id="pro-img" alt="Screenshot from the DogLibrary webpage" />
-        </div>
-      </section>
-
-      <section className="project-4">
-        <div className="pro4-photo">
-          <img src="/rainydays2.png" id="pro-img" alt="Screenshot from the RainyDays webpage" />
-        </div>
-        <div className="pro4-text">
-          <h2>RainyDays</h2>
-          <p>A website including a blog for<br />posting updates about being<br />either a photographer or a client</p>
-          <div className="pro-button">
-            <Link to="/rainydays"  rel="noopener noreferrer">
-              <button>more about this project</button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      ))}
     </main>
   );
 };

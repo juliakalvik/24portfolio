@@ -7,23 +7,7 @@ body {
   scroll-behavior: smooth;
 }
 
-button {
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #2e3227;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-  border: none;
-}
 
-button:hover {
-  background-color: #2e3227;
-  color: #fff;
-}
 
 .socials-buttons button:hover {
   background-color: #08243e70;
@@ -43,6 +27,117 @@ p {
 .projectSection h2 {
   color: #fff;
 }
+
+
+.projectSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+
+.project-card {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+
+.project-image {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  object-fit: cover; 
+  opacity: 0.7; 
+  z-index: 0; 
+}
+
+
+.project-text {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  color: white; 
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8); 
+  transition: right 0.5s ease; 
+  z-index: 1; 
+}
+
+
+.project-card:hover .project-text {
+  right: 0; 
+}
+
+.project-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+
+.project-text button {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #2e3227;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border: none;
+}
+
+.project-text button:hover {
+  background-color: #2e3227;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .project-card {
+    height: 100vh; 
+  }
+
+  .project-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .project-text p {
+    font-size: 0.9rem;
+  }
+
+  .project-text button {
+    padding: 8px 16px;
+  }
+}
+
 
 @media screen and (max-width: 400px) {
   .pro-button button {
